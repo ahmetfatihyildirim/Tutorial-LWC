@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Sample 2" icon-name="utility:adjust_value">
+        <div class="slds-m-around_medium">
+            <lightning-input type="text" label="Enter a text" placeholder="Write the name" onchange={changeHandler}></lightning-input>
+            <br/>
+            <h1>Hello {greeting}!</h1>
+        </div>
+        <div class="slds-m-around_medium">
+            <lightning-button variant="destructive" label="Confirm" title="Destructive action" onclick={buttonHandler} class="slds-m-left_x-small"></lightning-button>
+        </div>  
+    </lightning-card>
+</template>

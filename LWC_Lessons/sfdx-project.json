@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "LWC_Dersleri",
+  "name": "LWC_Lessons",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "56.0"
