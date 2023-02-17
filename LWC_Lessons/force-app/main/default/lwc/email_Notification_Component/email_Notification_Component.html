@@ -1,0 +1,22 @@
+<!--https://sfdcsaga.blogspot.com/-->
+<template>
+    <template if:false={emailRead}>
+          <div class="letter-image" style="margin-top: 100px;">
+              <div class="animated-mail">
+                <div class="back-fold"></div>
+                <div class="letter" onclick={updateEmailReadStatus}>
+                  <div class="letter-border"></div>
+                  <div class="letter-title"></div>
+                  <div class="letter-context"></div>
+                  <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                  </div>
+                </div>
+                <div class="top-fold"></div>
+                <div class="body"></div>
+                <div class="left-fold"></div>
+              </div>
+              <div class="shadow"></div>
+            </div>
+          </template>
+  </template>
