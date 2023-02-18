@@ -1,6 +1,6 @@
 import { LightningElement, api } from 'lwc';
 
-export default class ContactEditWithAPI extends LightningElement {
+export default class CustomViewWithAPI extends LightningElement {
     @api recordId;
     @api objectApiName;
 }
