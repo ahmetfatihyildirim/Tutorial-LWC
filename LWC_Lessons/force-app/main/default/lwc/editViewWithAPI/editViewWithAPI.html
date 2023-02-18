@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Edit View Layout">
+        <lightning-record-edit-form record-id={recordId} object-api-name={objectApiName}>
+            <div class="slds-grid slds-var-m-around_medium">
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-input-field field-name="Name"></lightning-input-field>
+                    <lightning-input-field field-name="Phone"></lightning-input-field>
+                </div>
+                <div class="slds-col slds-size_1-of-2">
+                    <lightning-input-field field-name="Type"></lightning-input-field>
+                    <lightning-input-field field-name="AnnualRevenue"></lightning-input-field>
+                </div>
+            </div>
+            <div class="slds-var-m-around_medium">
+                <lightning-button type="submit" variant="brand" label="Save"></lightning-button>
+            </div>
+        </lightning-record-edit-form>
+    </lightning-card>
+</template>
